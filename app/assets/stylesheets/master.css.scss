@@ -66,6 +66,15 @@ h2 {
   font-family: 'sinkin_sans400_regular', sans-serif;
 }
 
+h2 span {
+  font-family: 'sinkin_sans700_bold', sans-serif;
+  color: #dddddd;
+}
+
+::selection {
+  background-color: #f84342;
+}
+
 .next-quote {
   color:#f84342;
   font-family: 'sinkin_sans400_regular', sans-serif;
@@ -79,4 +88,14 @@ h2 {
 
 .about {
   font-family: Corbel, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", "Bitstream Vera Sans", "Liberation Sans", Verdana, "Verdana Ref", sans-serif;
+}
+
+.modal {
+  font-family: 'sinkin_sans400_regular', sans-serif;
+}
+
+@media (max-width: 750px) {
+  .footer-blurb {
+    text-align: left;
+  }
 }
